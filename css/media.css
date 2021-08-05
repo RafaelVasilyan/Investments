@@ -1,0 +1,202 @@
+/* header */
+@media only screen and (max-width:1200px) {
+      .header_menu_ul{
+          flex-direction: column;
+      }
+      .header_menu_ul li{
+          margin-bottom: 10px;
+      }
+}
+@media only screen and (max-width:420px) {
+   .header_menu{
+       flex-direction: column;
+       align-items: center;
+   }
+   .header_menu_list,.brand,.header_sign{
+       width: 50%;
+       max-width: 50%;
+       margin-bottom: 18px;
+   }
+}
+@media only screen and (max-width:917px) {
+     .header_info{
+         flex-direction: column;
+         align-items: center;
+     }
+     .header_invest,.header_invest_img,.header_invest_made{
+         margin-bottom: 16px;
+         align-items: center;
+         width: 100%;
+         max-width: 100%;
+     }
+     .header_invest_img{
+         text-align: center;
+     }
+     .header_invest_made_text,.header_invest_text{
+         text-align: center;
+     }
+}
+/* types */
+@media only screen and (max-width:979px){
+    .types_block{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .types_main,.types_img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .types_img{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width:505px){ 
+       .types_info{
+           flex-direction: column;
+           align-items: center;
+       }
+       .types_title,.types_text_title,.types_text{
+           text-align: center;
+       }
+       .types_title{
+           width: 100%;
+           max-width: 100%;
+           margin-bottom: 20px;
+       }
+       .types_img{
+           margin-bottom: 20px;
+       }
+}
+/* interest */
+@media only screen and (max-width:727px){
+    .interest_types_block{
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .interest_types_info{
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+    }
+    .interest_types_info p{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .interest_types_info h1{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:1215px){
+    .classes_types{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .class_types_info{
+        margin-bottom: 12px;
+    }
+    .classes_types_block1,.classes_types_block2,.classes_types_block3,
+    .classes_types_block4,.classes_types_block5,.classes_types_block6{
+        width: 50%;
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width:1060px){
+    .classes_types_block1,.classes_types_block2,.classes_types_block3,
+    .classes_types_block4,.classes_types_block5,.classes_types_block6{
+       background-image: none;
+       background-color: #3356ae;
+       margin-bottom: 10px;
+       border-radius: 12px;
+       width: 100%;
+       max-width: 100%;
+    }
+    .classes_types_info{
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        margin: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .classes_types_info_title,.classes_types_info_text{
+        max-width: none;
+    }
+}
+@media only screen and (max-width:819px){
+    .classes_types_info_title{
+        font-size: 24px;
+    }
+}
+/* About */
+@media only screen and (max-width:995px){
+    .about_block{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .about_info{
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .about_img{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+}
+/* Join */
+@media only screen and (max-width:693px){
+    .join_block{
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .join_img{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .join_info{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width:702px){
+      .join{
+          min-height: 500px;
+      }
+}
+/* footer */
+@media only screen and (max-width:862px){
+    .footer_block{
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_invest,.footer_about,.footer_join{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width:378px){
+        .footer_email input{
+            width: 250px;
+        }
+}
